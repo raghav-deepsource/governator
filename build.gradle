@@ -13,11 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+plugins {
 
-
+    id 'nebula.netflixoss' version '8.0.0'
+}
 
 subprojects {
-
+    apply plugin: 'nebula.netflixoss'
     apply plugin: 'java'
 
     repositories {
